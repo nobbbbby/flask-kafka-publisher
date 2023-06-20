@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "flask-kafka-publisher"
+version = "0.0.1"
+authors = [
+    { name = "Nobby Tang", email = "cnadytzar@gmail.com" },
+]
+description = " A Flask extension that simplifies publishing messages to Kafka within your Flask application."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "flask",
+    "kafka"
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/nobbbbby/flask-kafka-publisher"
+"Bug Tracker" = "https://github.com/nobbbbby/flask-kafka-publisher/issues"
